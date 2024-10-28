@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const Convertor = () => {
   const [amount, setAmount] = useState(1);
   const [fromCurrency, setFromCurrency] = useState("USD");
-  const [toCurrency, setToCurrency] = useState("EUR");
+  const [toCurrency, setToCurrency] = useState("UZS");
   const [exchangeRate, setExchangeRate] = useState(0);
   const [currencies, setCurrencies] = useState({});
 
